@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ORDER FORM</title>
+<link rel="stylesheet" href="NATIVIDAD_IMAGE_ITBD/style.css">
+</head>
+<body>
+<table>
+  <caption></caption>
+  <form method="post" action="confirmation.html"> 
+ <thead>
+<tr>
+<th colspan="30">Customer Information</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><label for="name">Full Name:</label></td>
+<td><input type="text" name="name" size="30" placeholder="Enter name here" maxlength ="40" autofocus required></td>
+</tr>
+  
+<td><label for="address">Address:</label></td>
+<td><input type="text" name="address" size="30" placeholder="Enter address here" maxlength ="60" autofocus></td>
+</tr>
+
+<td><label for="contact">Contact Number:</label></td>
+<td><input type="tel" name="contact" size="35" maxlength ="50"  placeholder="Enter number here" autofocus required></td>
+</tr>
+  
+<tr>
+<td><label for="email">Email Address:</label></td>
+<td><input type="email" name="name" size="35" maxlength ="40"  placeholder="Enter email here" autofocus required></td>
+</tr>
+
+<tr>
+<td><label for="ability">Describe the nearest landmark:</label></td>
+<td>
+<textarea rows="6" cols="30" placeholder="Enter address description" required></textarea>
+</td>
+</tr>
+
+<tr>
+<td><label for="delivery-time">Delivery Date and Time:</label>
+</td>
+<td><input type="datetime-local" class="form-control" id="delivery-time" required>
+</td>    
+</tr>
+
+  <th colspan="30" style="background-color: #FAEF9B;
+  color:black;">Order Form</th>
+<tr>
+<td><label for="checkAll">Burger:</label></td>
+<td>
+<input type="radio" id="single" name="burger-type" value="Single"> <label for="single" CHECKED>Single Patty</label>
+<input type="radio" id="double" name="burger-type" value="Double" > <label for="double">Double Patty</label><br>
+<input type="checkbox" id="feature3" name="feature3" value="Cheese"> <label for="feature3">Cheese &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="checkbox" id="feature4" name="feature4" value="Coleslaw"> <label for="feature4">Coleslaw </label><br>
+ <input type="checkbox" id="feature5" name="feature5" value="Tomato"> <label for="feature5">Tomato &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="checkbox" id="feature6" name="feature6" value="Onion"> <label for="feature6">Onion</label><br>
+<input type="checkbox" id="feature7" name="feature7" value="Cucumber"> <label for="feature7">Cucumber &nbsp;&nbsp;</label>
+<input type="checkbox" id="feature8" name="feature8" value="Bacon"> <label for="feature8">Bacon </label><br>
+</td>
+</tr>
+<tr>
+<td><label for="bun">Buns:</label></td>
+<td>
+<select name="Bun" id="Bun" size="1">
+    <option value="white-bun" SELECTED>White Bun</option>
+    <option value="Wheat-bun">Wheat Bun</option>
+    <option value="Honey-oat">Honey Oat</option>
+    <option value="Sugar-free">Sugar Free</option>
+  </select>
+  </td>
+  <tr>
+    <td>Quantity:</td>
+    <td>
+      <input type="number" id="burger-quantity" name="burger-quantity" min="0" max="10" value="2">
+    </td>
+  </tr>
+  <td><label for="checkAll">Pasta:</label></td>
+<td>
+    <input type="radio" id="carbonara" name="pasta-type" value="carbonara" CHECKED> <label for="carbonara">Carbonara</label>
+    <input type="radio" id="pesto" name="pasta-type" value="pesto" > <label for="pesto">Pesto</label><br>
+    <input type="radio" id="spag" name="pasta-type" value="spag" > <label for="spag">Spaghetti</label>
+    <input type="radio" id="algio" name="pasta-type" value="algio" > <label for="algio">Aglio olio</label><br>
+    <input type="checkbox" id="extraCheese" name="addOn1" value="Cheese"> <label for="extraCheese">Extra Cheese</label><br>
+    <input type="checkbox" id="extraSauce" name="addOn2" value="Sauce"> <label for="extraSauce">Extra Sauce</label><br>
+     <input type="checkbox" id="extraToppings" name="feature5" value="Toppings"> <label for="extraToppings">Extra toppings</label><br>
+</td>
+</tr>
+  <tr>
+    <td>Quantity:</td>
+    <td>
+      <input type="number" id="burger-quantity" name="burger-quantity" min="0" max="10" value="1">
+    </td>
+  </tr>
+  <th colspan="30" style="background-color: #FAEF9B;color:black;">Others</th>
+  <tr>
+<td><label for="fries">Fries:</label></td>
+<td>
+<select name="Bun" id="fries" size="1">
+    <option value="BBQ" SELECTED>BBQ</option>
+    <option value="Cheese">Cheese</option>
+    <option value="Sour-Cream">Sour Cream</option>
+    <option value="Salt">Salt</option>
+  </select>
+  </td>
+    <tr>
+<td><label for="size">Size:</label></td>
+<td>
+<select name="size" id="Bun" size="1">
+    <option value="Medium" SELECTED>Small</option>
+    <option value="Small">Medium</option>
+    <option value="Large">Large</option>
+  <option value="Bucket">Bucket</option>
+  </select>
+  </td>
+  <tr>
+    <td>Quantity:</td>
+    <td>
+      <input type="number" id="burger-quantity" name="burger-quantity" min="0" max="10" value="1">
+    </td>
+  </tr>
+<tr>
+<td><label for="drinks">Drinks:</label></td>
+<td>
+<select name="drinks" id="Drinks" size="1">
+    <option value="Coke" SELECTED>Coke</option>
+    <option value="Sprite">Sprite</option>
+    <option value="Royal">Royal</option>
+    <option value="Iced-tea">Iced tea</option>
+    <option value="Lemonade">Lemonade</option>
+    <option value="Water">Water</option>
+  </select>
+  </td>
+  <tr>
+<td><label for="size">Size:</label></td>
+<td>
+<select name="size" id="Drinks" size="1">
+    <option value="Regular" SELECTED>Regular</option>
+    <option value="Small">Medium</option>
+  <option value="Large">Large</option>
+  </select>
+  </td>
+    <tr>
+    <td>Quantity:</td>
+    <td>
+      <input type="number" id="burger-quantity" name="burger-quantity" min="0" max="10" value="1">
+      </td>
+    </tr>
+  <tr>
+        <td><label for="DeliveryType">Delivery:</label></td>
+        <td>
+          <input type="radio" id="Delivery" name="DeliveryType" value="Delivery" CHECKED>
+              <label for="Delivery">Delivery &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="radio" id="PickUp" name="DeliveryType" value="PickUp">
+              <label for= "PickUp">Pick-up</label>
+        </td>
+      </tr>
+
+    <tr>
+          <th colspan="5" style="background-color: #FAEF9B;
+  color:black;">Feedback</th>
+      </tr>
+      </thead>
+        <tr>
+          <td><label for="ability">Feedback on Order Form:</label></td>
+          <td>
+            <textarea rows="10" cols="27" required enabled placeholder="How can we improve the ordering form?"></textarea>
+          </td>
+        </tr>
+<tfoot>
+<tr>
+<th colspan="2"><input type="submit" id="btn1" value="Order Now"></th> </tr>
+ <tr>
+<th colspan="2"><input type="reset" id="btn2" value="Reset Form"></th> </tr>
+</tfoot>
+</table>
+</body>
+</html>
