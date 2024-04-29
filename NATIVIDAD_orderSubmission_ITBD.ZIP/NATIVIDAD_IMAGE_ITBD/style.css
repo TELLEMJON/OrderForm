@@ -1,0 +1,63 @@
+table{
+    border: 5px solid #6D5D6E;
+    border-collapse:collapse;
+    margin:10px auto;
+  }
+  td, th{
+    border-bottom: 1px solid black;
+    border-collapse:collapse;
+    padding:15px;
+    font-family:"Sans-serif";
+  }
+  
+  body {
+    font-family:Tahoma;
+    color:black;
+    background-color:#F0F0F0;
+    font-size:1.125em;
+    }
+    thead tr{
+    background-color: #FAEF9B;
+      color:black;
+  }
+  input[type=text], textarea, select, email, tel{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit], [type="reset"] {
+    width: 100%;
+    background-color:#FAEF9B;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: verdana;
+    font-size:1.125em;
+  }
+  input[type=submit]:hover {
+    background-color: black;
+    color: #FAEF9B;
+  }
+  textarea{
+    resize:none;
+  }
+   input[type=reset]:hover {
+    background-color: black;
+    color: #FAEF9B;
+  }
+  textarea{
+    resize:none;
+  }
+  .confirmation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
